@@ -1,3 +1,7 @@
+Module requirement:
+	pytorch
+	matplotlib
+
 Description of included files:
 	Basic_nn_10.py
 	- Neural network with 1 hidden linear layer
@@ -21,6 +25,9 @@ Description of included files:
 	- Trained model with 5 epochs using Basic_nn_11.py
 	- Accuracy of 97.5% on test data
 
-	Basic
 
-	* all training files contain visualizations using Tensor-board and Matplotlib
+	* All training files contain visualizations using Tensor-board and Matplotlib
+	* All training files come with gpu support
+
+Launch Tensor-board local server:
+	$ tensorboard --logdir runs
